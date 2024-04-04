@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+*, body{
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    color: black;
+    list-style-type: none;
+    text-decoration: none;
+}
+body{ background-color: teal; display: grid; place-items: center; height: 100vh;}
+.container{
+    height: auto;
+    background-color: white;
+    border-radius: 15px;
+    width: 320px;
+    padding: 30px 20px;
+    box-sizing: border-box;
+}
+h3{
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.ipfield{
+    position: relative;
+}
+input.todo-ip{
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    outline: none;
+    border: 1px solid black;
+    box-sizing: border-box;
+    border-radius: 50px;
+}
+.addBtn{ 
+    font-size: 20px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    background: teal;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    text-align: center;
+    color: #fff;
+    border: 1px solid #000;
+}
+.addBtn2{ 
+    font-size: 20px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    position: absolute;
+    top: 50%;
+    right: 50px;
+    transform: translateY(-50%) rotate(45deg);
+    cursor: pointer;
+    background: teal;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    text-align: center;
+    color: #fff;
+    border: 1px solid #000;
+}
+ul{ 
+    margin-top: 20px;
+}
+ul li{
+    padding: 10px;
+    background: #d5d5d5;
+    font-size: 16px;
+    font-weight: 400;
+    position: relative;
+    border-radius: 5px;
+}
+ul li+li{
+    margin-top: 15px;
+}
+h5 {
+    text-align: center;
+    margin-bottom: 10px;
+    color: teal;
+  }
+
+ul li[contentEditable="true"]{ background: #fff;}
